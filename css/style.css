@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	background-color:#f0f0f0;
+}
+/*font pacifico*/
+h1{
+	font-size:40px;
+	font-family: 'Pacifico', cursive;
+	color:#ab8838;
+}
+.wrapper{
+	background-color:#f5f5f5;
+	padding: 0;
+	width: 100%;
+}
+.navbar-bar ul li{
+	display: inline-block;
+	list-style: none;
+	border-top: 1px solid #ddd;
+}
+
+/*SOCIAL LINKS CSS*/
+
+
+.top_socials{
+	position: absolute;
+	left: 0px;
+	top: 7px;
+	
+}
+
+.social_Links li{
+	list-style:none;
+	display: inline-block;
+	margin-right: 7px;
+	
+}
+
+
+.fb{
+	background:url("../images/icons/facebook-letter-logo (2).png");
+	width:26px;
+	height: 26px;
+	background-repeat: no-repeat;	
+}.twit{
+	background: url("../images/icons/twitter-logo (2).png");
+	width: 26px;
+	height: 26px;
+	background-repeat: no-repeat;	
+}.whats{
+	background: url("../images/icons/whatsapp-logo (2).png");
+	width: 26px;
+	height: 26px;
+	background-repeat: no-repeat;	
+}.ytu{
+	background-image: url("../images/icons/youtube-play-button (2).png");
+	width: 26px;
+	height: 26px;
+	background-repeat: no-repeat;	
+}
+
+/*END OF SOCIAL LINKS*/
+
+
+.extra_links{
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	height: 40px;
+	
+	
+}
+.extra_links li i{
+	width:40px;
+	height: 40px;
+}
